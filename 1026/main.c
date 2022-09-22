@@ -30,6 +30,7 @@ int main() {
         sum += Arr_A[n - i - 1] * Arr_B[i];
     }
     printf("%d", sum);
+    printf("hello");
 
     return 0;
 }
