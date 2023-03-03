@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.23)
+
+project(MyProgram)
+
+# Add source files from the current directory
+file(GLOB SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/*.c")
+
+# Create an executable target from the sources
+add_executable(MyProgram ${SOURCES})
